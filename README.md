@@ -72,19 +72,19 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 ## 📸 Screenshots
 
 ### 1. App Running
-![App Running](Level-3%20Screenshots/app-running.png)
+![App Running](Level-3%20Screenshots/app-running.jpg)
 
 ### 2. Wallet Selection
-![Wallet Selection](Level-3%20Screenshots/wallet%20selection.png)
+![Wallet Selection](Level-3%20Screenshots/wallet%20selection.jpg)
 
 ### 3. Call Contract
-![Contract Called](Level-3%20Screenshots/call%20connect.png)
+![Contract Called](Level-3%20Screenshots/call%20connect.jpg)
 
 ### 4. Transaction Success
-![Transaction Success](Level-3%20Screenshots/successful%20tracsaction.png)
+![Transaction Success](Level-3%20Screenshots/successful%20tracsaction.jpg)
 
 ### 5. Test Results
-![Test Results](Level-3%20Screenshots/test-results.png)
+![Test Results](Level-3%20Screenshots/test-results.jpg)
 
 ### 6. Live Activity Feed
-![Live Activity Feed](Level-3%20Screenshots/live%20activity%20feed.png)
+![Live Activity Feed](Level-3%20Screenshots/live%20activity%20feed.jpg)
