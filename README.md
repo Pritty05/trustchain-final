@@ -37,9 +37,11 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 - Error Type 3: User rejected wallet connection
 
 ## 📜 Smart Contract
-- Contract ID: CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCN4
+- Contract ID: CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI
 - Network: Stellar Testnet
+- Type: WASM Contract
 - Called from frontend via Soroban RPC
+- 🔗 [View Deployed Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI)
 
 ## 🧪 Tests
 4 tests passing using Vitest:
@@ -47,6 +49,9 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 - ✅ Validate XLM amount is positive
 - ✅ Validate smart contract ID length
 - ✅ Reject empty recipient address
+
+## 📸 Test Output
+![Test Results](Level-3%20Screenshots/test-results.jpg)
 
 ## 🚀 Setup Instructions
 
