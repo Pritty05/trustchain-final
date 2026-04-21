@@ -1,12 +1,15 @@
-# TrustChain Track 🔗
+# TrustChain Final 🔗
 
-A multi-wallet Stellar dApp with smart contract integration built for Level 2.
+A complete Stellar blockchain dApp with smart contract, tests and demo video.
 
 ## 🌐 Live Demo
-👉 https://trustchain-track.vercel.app
+👉 https://trustchain-final.vercel.app
+
+## 🎥 Demo Video
+👉 https://youtu.be/IL-mGt_CK34
 
 ## 📌 Project Description
-TrustChain Track is an upgraded Stellar blockchain dApp that supports multiple wallets, handles 3 error types, integrates a smart contract, and provides real-time transaction tracking with a live activity feed.
+TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet support, smart contract integration, 4 passing tests, real-time activity feed and full documentation.
 
 ## 🛠️ Tech Stack
 - React + Vite
@@ -14,6 +17,7 @@ TrustChain Track is an upgraded Stellar blockchain dApp that supports multiple w
 - Freighter Wallet API
 - Stellar Testnet (Horizon)
 - Soroban RPC (Smart Contract)
+- Vitest (Testing)
 
 ## ✨ Features
 - Multi-wallet support (Freighter, xBull, Albedo)
@@ -24,6 +28,7 @@ TrustChain Track is an upgraded Stellar blockchain dApp that supports multiple w
 - Transaction status (⏳ Pending → ✅ Success → ❌ Failed)
 - Transaction hash + Stellar Explorer link
 - Live Activity Feed
+- Loading states and progress indicators
 - Disconnect wallet
 
 ## ⚠️ Error Handling
@@ -36,19 +41,29 @@ TrustChain Track is an upgraded Stellar blockchain dApp that supports multiple w
 - Network: Stellar Testnet
 - Called from frontend via Soroban RPC
 
+## 🧪 Tests
+4 tests passing using Vitest:
+- ✅ Validate Stellar wallet address format
+- ✅ Validate XLM amount is positive
+- ✅ Validate smart contract ID length
+- ✅ Reject empty recipient address
+
 ## 🚀 Setup Instructions
 
 1. Clone the repository:
-   git clone https://github.com/Pritty05/trustchain-track.git
+   git clone https://github.com/Pritty05/trustchain-final.git
 
 2. Install dependencies:
-   cd trustchain-track
+   cd trustchain-final
    npm install
 
 3. Run the app:
    npm run dev
 
-4. Open browser at http://localhost:5173
+4. Run tests:
+   npx vitest run
+
+5. Open browser at http://localhost:5173
 
 ## 📋 Requirements
 - Freighter Wallet browser extension installed
@@ -56,24 +71,20 @@ TrustChain Track is an upgraded Stellar blockchain dApp that supports multiple w
 
 ## 📸 Screenshots
 
-### 1. Wallet Options
-![Wallet Options](level-2-screenshots/wallet-options.jpg.jpg)
+### 1. App Running
+![App Running](Level-3%20Screenshots/app-running.png)
 
-### 2. Error Handling
-![Error Handling](level-2-screenshots/error-handling.jpg.jpg)
+### 2. Wallet Selection
+![Wallet Selection](Level-3%20Screenshots/wallet%20selection.png)
 
-### 3. Error Rejected
-![Error Rejected](level-2-screenshots/error-rejected.jpg.jpg)
+### 3. Call Contract
+![Contract Called](Level-3%20Screenshots/call%20connect.png)
 
-### 4. Wallet Connected
-![Wallet Connected](level-2-screenshots/wallet-connected.jpg.jpg)
+### 4. Transaction Success
+![Transaction Success](Level-3%20Screenshots/successful%20tracsaction.png)
 
-### 5. Smart Contract Called
-![Contract Called](level-2-screenshots/contract-called.jpg.jpg)
+### 5. Test Results
+![Test Results](Level-3%20Screenshots/test-results.png)
 
-### 6. Transaction Success
-![Transaction Success](level-2-screenshots/transaction-success.jpg.jpg)
-
-## 🔗 Testnet Transaction Proof
-View on Stellar Explorer:
-https://stellar.expert/explorer/testnet
+### 6. Live Activity Feed
+![Live Activity Feed](Level-3%20Screenshots/live%20activity%20feed.png)
