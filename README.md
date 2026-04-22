@@ -41,7 +41,7 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 - Network: Stellar Testnet
 - Type: WASM Contract
 - Called from frontend via Soroban RPC
-- 🔗 [View Deployed Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI)
+- 🔗 Deployed Contract: https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI
 
 ## 🧪 Tests
 4 tests passing using Vitest:
