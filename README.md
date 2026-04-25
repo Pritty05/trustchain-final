@@ -42,6 +42,7 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 - Type: WASM Contract
 - Called from frontend via Soroban RPC
 - 🔗 Deployed Contract: https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI
+- 🔗 [View Deployed Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI)
 
 ## 🧪 Tests
 4 tests passing using Vitest:
@@ -56,17 +57,25 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 ## 🚀 Setup Instructions
 
 1. Clone the repository:
-   git clone https://github.com/Pritty05/trustchain-final.git
+```bash
+git clone https://github.com/Pritty05/trustchain-final.git
+```
 
 2. Install dependencies:
-   cd trustchain-final
-   npm install
+```bash
+cd trustchain-final
+npm install
+```
 
 3. Run the app:
-   npm run dev
+```bash
+npm run dev
+```
 
 4. Run tests:
-   npx vitest run
+```bash
+npx vitest run
+```
 
 5. Open browser at http://localhost:5173
 
@@ -93,3 +102,6 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 
 ### 6. Live Activity Feed
 ![Live Activity Feed](Level-3%20Screenshots/live%20activity%20feed.jpg)
+
+---
+Made with ❤️ for the Stellar Community 🚀
