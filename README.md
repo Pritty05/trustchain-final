@@ -37,12 +37,25 @@ TrustChain Final is a complete end-to-end Stellar dApp featuring multi-wallet su
 - Error Type 3: User rejected wallet connection
 
 ## 📜 Smart Contract
-- Contract ID: CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI
-- Network: Stellar Testnet
-- Type: WASM Contract
-- Called from frontend via Soroban RPC
-- 🔗 Deployed Contract: https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI
-- 🔗 [View Deployed Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CDZZQYUKOSTHDOUCU273NHRVYJ67A37JC5SL3JAOJ77FUT4KGQXSJBUI)
+
+### About the Contract
+This is a **custom, self-made Soroban smart contract** written from scratch in **Rust**. Deployed directly to Stellar Testnet using Stellar CLI.
+
+The contract has 3 functions:
+- `send_payment` — records and validates XLM payment amount
+- `validate` — validates payment amount is positive and within limits
+- `version` — returns the contract version
+
+### Contract Details
+- **Contract ID:** CA7S27CDLIGZMZT3FMBROSGCJRP4BNPWDXUN5MKTKOVX3RGAGLSVT4EA
+- **Network:** Stellar Testnet
+- **Type:** WASM Contract (Soroban)
+- **Language:** Rust
+- **Contract Folder:** `contract/src/lib.rs`
+
+### Contract Links
+- 🔗 Direct URL: https://stellar.expert/explorer/testnet/contract/CA7S27CDLIGZMZT3FMBROSGCJRP4BNPWDXUN5MKTKOVX3RGAGLSVT4EA
+- 🔗 [View Deployed Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA7S27CDLIGZMZT3FMBROSGCJRP4BNPWDXUN5MKTKOVX3RGAGLSVT4EA)
 
 ## 🧪 Tests
 4 tests passing using Vitest:
